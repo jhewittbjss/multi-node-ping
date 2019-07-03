@@ -15,7 +15,7 @@ echo "$date" "Pinging" "$ip" "now!"
     ping -c 1 "$ip" > /dev/null
     if [ $? -eq 0 ]; 
     then
-    echo "$date" "Node" "$ip" "is up"g
+    echo "$date" "Node" "$ip" "is up"
     else
     echo "$date" "Node" "$ip" "down"
     fi
