@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ -e file.txt ]
+if [ ! -f file.txt ]
 then
     echo "File.txt not present. Exiting Script."
     exit
