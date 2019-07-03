@@ -1,3 +1,6 @@
     {
-        "shellcheck.exclude": [1017],
+        // Can place Shellcheck excludes in here. 
+        // Sometimes shellcheck will flag up for Syntax issues due to Visual Studio
+        // Check out https://github.com/koalaman/shellcheck/wiki/SC1017 to see why the below can be excluded
+        // "shellcheck.exclude": [1017],
     }

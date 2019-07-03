@@ -10,7 +10,7 @@ Make monitoring.sh executable:
 
 `chmod +x monitoring.sh`
 
-File.txt is full of Lorem Ipsum however inside of it contains IPs. If you'd like to see the script in action, run the monitoring script now to see the output.
+File.txt is full of Lorem Ipsum text. Inside of it contains a set of IPs. If you'd like to see the script in action, run the monitoring script now to see the output.
 
 Before inserting your random bit of text, clear down file.txt.
 
