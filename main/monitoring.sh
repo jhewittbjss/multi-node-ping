@@ -1,4 +1,10 @@
 #!/bin/bash
+
+if [ -e file.txt ]
+then
+    echo "File.txt not present. Exiting Script."
+    exit
+fi
 #Set date variable
 date=$(date)
 
