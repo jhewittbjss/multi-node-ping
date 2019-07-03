@@ -1,6 +1,6 @@
 #!/bin/bash
-
-if [ ! -f file.txt ]
+file=file.txt
+if [ ! -f "$file"  ]
 then
     echo "File.txt not present. Exiting Script."
     exit
